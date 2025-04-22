@@ -36,6 +36,7 @@ class Canvas : public Component
     void set_line();
     void set_rect();
     void set_ellipse();
+    void set_polygon();
 
     // Clears all shapes from the canvas.
     void clear_shape_list();
@@ -53,6 +54,7 @@ class Canvas : public Component
 
     // Event handlers for mouse interactions.
     void mouse_click_event();
+    void mouse_right_click_event();
     void mouse_move_event();
     void mouse_release_event();
 

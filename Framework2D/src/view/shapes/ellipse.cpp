@@ -19,10 +19,10 @@ void Ellipse::draw(const Config& config) const
             config.line_color[0],
             config.line_color[1],
             config.line_color[2],
-            config.line_color[3],
-            0.f,
-            0,
-            config.line_thickness));
+            config.line_color[3]),
+        0.f,
+        0,
+        config.line_thickness);
 }
 
 void Ellipse::update(float x, float y)
